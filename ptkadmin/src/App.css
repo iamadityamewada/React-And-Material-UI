@@ -1,0 +1,143 @@
+.content-management-container {
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 15px;
+  }
+  
+  .nav-section {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #eee;
+  }
+  
+  .nav-item {
+    font-weight: 600;
+    color: #333;
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 4px;
+  }
+  
+  .nav-item.active {
+    background: #f0f0f0;
+    color: #1a237e;
+  }
+  
+  .main-content-grid {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 30px;
+  }
+  
+  .content-section {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+    margin-bottom: 20px;
+  }
+  
+  .section-title {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    color: #1a237e;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+  }
+  
+  .cta-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+  }
+  
+  .cta-table th {
+    background: #f8f9fa;
+    text-align: left;
+    padding: 12px;
+    border: 1px solid #dee2e6;
+  }
+  
+  .cta-table td {
+    padding: 12px;
+    border: 1px solid #dee2e6;
+  }
+  
+  .description {
+    margin: 15px 0;
+    color: #666;
+    font-size: 0.9em;
+  }
+  
+  .cta-links div {
+    color: #1a237e;
+    margin: 5px 0;
+    font-family: monospace;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .status-badge {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.85rem;
+  }
+  
+  .published {
+    background: #e8f5e9;
+    color: #2e7d32;
+  }
+  
+  .unpublished {
+    background: #fff3e0;
+    color: #ef6c00;
+  }
+  
+  .user-management-section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .management-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 12px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .management-button:hover {
+    background: #f8f9fa;
+  }
+  
+  .last-updated {
+    color: #666;
+    margin-top: 15px;
+    font-size: 0.9em;
+  }
+  
+  @media (max-width: 768px) {
+    .main-content-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .nav-section {
+      flex-direction: column;
+      gap: 15px;
+    }
+  }

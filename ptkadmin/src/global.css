@@ -1,0 +1,44 @@
+.m-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .box {
+    flex: 1;
+    padding: 20px;
+    margin: 0 10px;
+    background-color: #a0c4ff;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center; /* Center items in the box */
+    align-items: center; /* Vertically align items */
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Adjust the gap between icon and text here */
+  }
+  
+  .active-text {
+    border-bottom: 2px solid blue; /* Only underline the text */
+    padding-bottom: 5px; /* Space between text and underline */
+  }
+  
+  .c-container {
+    background-color: #a0c4ff; /* Matches the box color */
+    height: 500px; /* You can adjust the height as needed */
+    margin: 0 30px;
+    padding: 20px; /* Adds padding inside the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds subtle shadow */
+    display: flex; /* Flexbox to allow content alignment */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    text-align: center; /* Center the text inside */
+    color: #333; /* Adjust text color for better readability */
+    font-size: 1.2rem; /* Adjust font size */
+}
